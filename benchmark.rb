@@ -1,6 +1,6 @@
 require 'benchmark'
 
-n = 1_000_000_000 # ベンチマークの繰り返し回数
+n = 10_000_000 # ベンチマークの繰り返し回数
 
 string_hash = { 'foo' => 'bar' }
 symbol_hash = { foo: 'bar' }
