@@ -36,10 +36,6 @@ group :development do
   gem 'web-console',         '4.2.0'
 end
 
-group :production do
-  gem 'aws-sdk-s3', '1.114.0', require: false
-end
-
 group :test do
   gem 'capybara',                 '3.38.0'
   gem 'guard',                    '2.18.0'
